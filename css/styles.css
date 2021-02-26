@@ -1,0 +1,175 @@
+body{
+    font-family: "Montserrat";
+    line-height: 1.5;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 900;
+}
+
+/* Headings */
+.big-heading{
+    font-size: 3.5rem;
+    text-align: left;
+}
+
+.section-heading{
+    font-size: 2.5rem;
+}
+
+.colored-section{
+    background-color: #f71454;
+    color:#fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+
+.container-fluid{
+    padding:7% 15%;
+    position:relative;
+
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding:0 10px;
+}
+
+.nav-link{
+    font-size: 1rem;
+    font-weight: 500; 
+}
+
+
+
+p{
+    font-size: 0.90rem;
+    color: rgb(143, 142, 142);
+}
+
+#title{
+    padding:
+}
+
+#title-dog-image{
+        transform: rotate(25deg);
+        width: 20%;
+        position:absolute;
+        right: 26%;
+    }
+
+.download-btn{
+    margin: 5% 3% 5% 0;
+
+}
+
+/* feature section */
+
+#features{
+    padding:5%;
+    margin: 0 5rem;
+    position: relative;
+    z-index: 1;
+   
+}
+
+.feature-title{
+    font-size: 1.1rem;
+}
+
+
+.icons{
+    color:#fc9d96;
+}
+
+.icons:hover{
+    color:   rgb(243, 20, 94);
+}
+
+
+/* testimonial */
+
+#testimonials{
+    background-color:#ff847c;
+    color:white;   
+}
+
+
+.testimonial-text{
+    font-size: 2.5rem;
+}
+
+
+.test-image{
+    height: 5rem;
+    border-radius: 100%;
+    margin:20px;
+}
+
+#press{
+    background-color:#ff847c;  
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing{
+    padding: 100px;
+}
+
+.price-text{
+    font-size: 3rem; 
+    line-height: 1.5; 
+}
+
+.pricing-column{
+    
+    padding: 3% 2%;
+    
+}
+
+/* cta styling */
+
+.social-icon{
+    padding: 20px 10px;
+}
+
+.cta-heading{
+    font-size: 3.5rem;
+}
+
+@media (max-width: 1028px){
+
+    #title-dog-image{
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+    }
+
+    .container-fluid{
+        text-align: center;
+    }
+
+    .nav-link{
+        font-size: 1.5rem;
+    }
+}
+
